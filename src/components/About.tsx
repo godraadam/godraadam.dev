@@ -61,7 +61,7 @@ export default function About() {
         <p>
           Besides programming I like to get out into nature, I like to go hiking
           whenever I get the opportunity. At an early age I fell in love with
-          skiing, with mountains, with snow. I also like basketball, bouldering and cooking!
+          skiing, with mountains, with snow. I am a craft beer enthusiast. I also like basketball, bouldering and cooking!
         </p>
       </div>
     </div>

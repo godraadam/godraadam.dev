@@ -10,11 +10,19 @@ export default function Card() {
     >
       <div className="justify-between xl:flex gap-3 max-w-md w-full">
         <div className="flex justify-center">
+          {darkMode ?
           <img
             className="object-cover w-20 h-20 rounded-full shadow-sm"
             src="./myself.jpg"
             alt=""
           />
+          :
+          <img
+            className="object-cover w-20 h-20 rounded-full shadow-sm"
+            src="./myself2.jpg"
+            alt=""
+          />
+        }
         </div>
         <div className="space-y-1">
           <h5

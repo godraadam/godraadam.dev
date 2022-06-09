@@ -17,10 +17,14 @@ export default function Footer() {
           <a className="underline" href="//tailwindcss.com/">
             Tailwind
           </a>{" "}
+          , hosted on{" "}
+          <a className="underline" href="//github.com/godraadam/godraadam.dev">
+            GitHub
+          </a>{" "}
           , deployed on{" "}
           <a className="underline" href="//netlify.com/">
             Netlify
-          </a>{" "}
+          </a>
         </span>
       </div>
     </div>

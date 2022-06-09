@@ -6,4 +6,4 @@
 
 ---
 
-> visit [godraadam.dev][https://godraadam.dev] 
+> visit [godraadam.dev](https://godraadam.dev) 

@@ -1,7 +1,7 @@
 export default function CV() {
   return (
-    <div className="xl:overflow-y-scroll pb-10">
-      <h1 className="text-center text-3xl font-bold p-8">CV</h1>
+    <div className="xl:overflow-y-scroll py-20">
+      <h1 className="text-center text-3xl font-bold">CV</h1>
       <div className="py-10 lg:flex lg:flex-row lg:gap-10 px-5 justify-center content-center leading-loose">
         <div>
           <h2 className="text-3xl font-bold pt-2">Dev skills</h2>

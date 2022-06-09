@@ -28,14 +28,14 @@ export default function Card(props: CardProps) {
           <h6 className="text-sm font-bold text-stone-600 dark:text-stone-400 text-center xl:text-left">
             /godrɒ aːdaːm/
           </h6>
-          <p className="mt-1 text-sm text-gray-700 dark:text-gray-300 text-center xl:text-left">
+          <p className="mt-1 text-xs uppercase font-bold text-stone-500 dark:text-stone-400 text-center xl:text-left">
             Developer, student and web3 enthusiast
           </p>
         </div>
       </div>
 
       <div className="mt-4 sm:pr-8 max-w-md w-full text-center xl:text-left">
-        <p className="text-sm text-gray-600 dark:text-gray-300">
+        <p className="text-sm text-stone-700 dark:text-stone-300">
           I am a 23 years old software engineer with a Bachelor's Degree,
           located in Cluj-Napoca, RO. I believe in the right to privacy, and as
           such I am an encryption, and decentralized systems advocate.

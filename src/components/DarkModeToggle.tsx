@@ -1,10 +1,9 @@
 interface DarkModeToggleProps {
-    darkMode : boolean;
-    setDarkMode: (darkMode: boolean) => void;
+  darkMode: boolean;
+  setDarkMode: (darkMode: boolean) => void;
 }
 
 export default function DarkModeToggle(props: DarkModeToggleProps) {
-
   return (
     <button
       className="flex items-center justify-center p-2"

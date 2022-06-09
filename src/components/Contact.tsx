@@ -5,9 +5,7 @@ export default function Contact() {
     <div className="flex flex-col flex-grow content-center py-20">
       <h1 className="text-center text-3xl font-bold">Contact</h1>
       <div className="flex items-center max-w-xl xl:max-w-2xl mx-auto py-10">
-        <div
-          className="px-6 py-10 bg-gray-200 dark:bg-stone-800 rounded-2xl shadow-xl dark:shadow-stone-800 dark:border dark:border-stone-700 shadow-stone-300 h-fit flex flex-row"
-        >
+        <div className="px-6 py-10 bg-gray-200 dark:bg-stone-800 rounded-2xl shadow-xl dark:shadow-stone-800 dark:border dark:border-stone-700 shadow-stone-300 h-fit flex flex-row">
           <div className="space-y-5">
             <div className="flex flex-row items-center space-x-3 sm:pr-8">
               <svg
@@ -82,9 +80,9 @@ export default function Contact() {
               <p className="text-sm sm:block font-mono">godra.adam@gmail.com</p>
             </div>
           </div>
-            <div className="flex items-center dark:bg-gray-200 p-3 rounded-xl">
-              <QRCode size={128} value="github.com/godraadam"/>
-            </div>
+          <div className="flex items-center dark:bg-gray-200 p-3 rounded-xl">
+            <QRCode size={128} value="github.com/godraadam" />
+          </div>
         </div>
       </div>
     </div>

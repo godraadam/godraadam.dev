@@ -4,7 +4,7 @@ interface CardProps {
 
 export default function Card(props: CardProps) {
   return (
-    <div className="px-6 py-10 bg-gray-200 dark:bg-stone-800 rounded-2xl shadow-xl dark:border dark:border-stone-700 dark:shadow-stone-700">
+    <div className="px-6 py-10 bg-gray-200 dark:bg-stone-800 rounded-2xl shadow-xl dark:border dark:border-stone-700 dark:shadow-stone-800">
       <div className="justify-between xl:flex gap-3 max-w-md w-full">
         <div className="flex justify-center">
           {props.darkMode ? (

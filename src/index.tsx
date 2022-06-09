@@ -7,6 +7,7 @@ import Contact from "./components/Contact";
 import About from "./components/About";
 import { Provider } from "react-redux";
 import { store } from "./store";
+import Landing from "./components/Landing";
 
 const root = ReactDOM.createRoot(
   document.getElementById("root") as HTMLElement
@@ -19,6 +20,7 @@ root.render(
           <Route path="cv" element={<CV />} />
           <Route path="contact" element={<Contact />} />
           <Route path="about" element={<About />} />
+          <Route index element={<Landing />} />
         </Route>
       </Routes>
     </BrowserRouter>

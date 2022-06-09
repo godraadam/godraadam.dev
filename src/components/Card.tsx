@@ -4,9 +4,9 @@ export default function Card() {
   const darkMode = useAppSelector((state) => state.darkMode.value);
   return (
     <div
-      className={` px-6 py-10 border border-gray-600 bg-gray-${
+      className={` px-6 py-10 bg-gray-${
         darkMode ? 900 : 200
-      } rounded-2xl`}
+      } rounded-2xl shadow-xl border border-gray-600 ${!darkMode && 'shadow-gray-300'}`}
     >
       <div className="justify-between xl:flex gap-3 max-w-md w-full">
         <div className="flex justify-center">
@@ -16,20 +16,25 @@ export default function Card() {
             alt=""
           />
         </div>
-        <div className="space-y-2">
+        <div className="space-y-1">
           <h5
             className={`text-4xl font-bold text-gray-${
               darkMode ? 300 : 600
             } text-center xl:text-left`}
           >
-            Godra Adam
+            Godra Ádám
           </h5>
+          <h6
+            className={`text-sm font-bold text-gray-500 text-center xl:text-left`}
+          >
+            /godrɒ aːdaːm/
+          </h6>
           <p
             className={`mt-1 text-sm text-gray-${
               darkMode ? 300 : 700
             } text-center xl:text-left`}
           >
-            Developer, student and privacy enthusiast
+            Developer, student and web3 enthusiast
           </p>
         </div>
       </div>

@@ -24,7 +24,7 @@ function App() {
         className="flex flex-col xl:max-h-screen xl:flex-row bg-white dark:bg-black text-gray-900 dark:text-gray-100 "
       >
         <div
-          className="xl:min-h-screen flex justify-center items-center border-b xl:border-b-0 xl:border-r px-4 py-16 border-gray-600"
+          className="xl:min-h-screen flex justify-center items-center border-b xl:border-b-0 xl:border-r px-4 py-16 border-stone-600"
         >
           <Card darkMode={darkMode} />
         </div>

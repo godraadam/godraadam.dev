@@ -1,15 +1,9 @@
-import { useAppSelector } from "../hooks";
-
 export default function Footer() {
-  const darkMode = useAppSelector((state) => state.darkMode.value);
-
   return (
     <div
-      className={`flex h-10 w-full xl:absolute xl:bottom-0 border-t border-gray-600 bg-gray-${
-        darkMode ? 900 : 200
-      } text-gray-${
-        darkMode ? 400 : 500
-      } justify-center gap-5 text-sm font-semi items-center px-8`}
+      className="flex h-10 w-full xl:absolute xl:bottom-0 border-t border-gray-600 
+            bg-gray-200 dark:bg-stone-800 text-gray-700 dark:text-gray-200 justify-center 
+            gap-5 text-sm font-semi items-center px-8"
     >
       <div className="w-full text-right">godraadam 2022</div>
       <div className="text-right">|</div>

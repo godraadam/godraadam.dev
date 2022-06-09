@@ -1,12 +1,5 @@
-import { useEffect } from "react";
-import { useAppSelector } from "../hooks";
 
 export default function About() {
-  const darkMode = useAppSelector((state) => state.darkMode.value);
-
-  useEffect(() => {
-    console.log(darkMode);
-  }, [darkMode]);
 
   return (
     <div className="xl:overflow-y-scroll">

@@ -1,16 +1,16 @@
-import { toggle } from "../feature/darkModeSlice";
-import { useAppDispatch, useAppSelector } from "../hooks";
+interface DarkModeToggleProps {
+    darkMode : boolean;
+    setDarkMode: (darkMode: boolean) => void;
+}
 
-export default function DarkModeToggle() {
-  const darkMode = useAppSelector((state) => state.darkMode.value);
-  const dispatch = useAppDispatch();
+export default function DarkModeToggle(props: DarkModeToggleProps) {
 
   return (
     <button
       className="flex items-center justify-center p-2"
-      onClick={() => dispatch(() => dispatch(toggle()))}
+      onClick={() => props.setDarkMode(!props.darkMode)}
     >
-      {!darkMode ? (
+      {!props.darkMode ? (
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="24"

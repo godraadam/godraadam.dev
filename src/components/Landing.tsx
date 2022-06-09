@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 export default function Landing() {
   return (
-    <div className="flex py-20 flex-col flex-grow items-center justify-center max-w-md mx-auto">
+    <div className="flex py-40 flex-col flex-grow items-center justify-center mx-auto">
       <h1
         className="font-bold text-5xl md:text-8xl"
       >

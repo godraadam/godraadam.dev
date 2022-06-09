@@ -55,7 +55,7 @@ export default function About() {
           <a className="underline text-sky-500" href="//ipfs.io">
             IPFS
           </a>{" "}
-          and OrbitDb.
+          and <a className="underline text-sky-500" href="//orbitdb.org/">OrbitDb</a>.
         </p>
         <h2 className="text-xl font-bold py-4">Hobbies</h2>
         <p>

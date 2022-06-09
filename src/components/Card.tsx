@@ -9,7 +9,7 @@ export default function Card(props: CardProps) {
         <div className="flex justify-center">
           {props.darkMode ? (
             <img
-              className="object-cover w-20 h-20 rounded-full shadow-sm"
+              className="object-cover w-20 h-20 rounded-full shadow-lg"
               src="./myself.jpg"
               alt=""
             />

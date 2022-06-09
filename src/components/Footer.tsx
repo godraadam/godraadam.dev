@@ -1,7 +1,7 @@
 export default function Footer() {
   return (
     <div
-      className="flex h-10 w-full xl:absolute xl:bottom-0 border-t border-gray-600 
+      className="flex h-fit py-2 w-full xl:absolute xl:bottom-0 border-t border-stone-600 
             bg-gray-200 dark:bg-stone-800 text-gray-700 dark:text-gray-200 justify-center 
             gap-5 text-sm font-semi items-center px-8"
     >

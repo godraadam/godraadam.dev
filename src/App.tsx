@@ -12,8 +12,18 @@ function App() {
     //set dark mode
     if (darkMode) {
       document.documentElement.classList.add("dark");
+      //set favicon
+      const favicon = document.getElementById("favicon") as HTMLAnchorElement | null;
+      if (favicon != null) {
+        favicon.href = './favicon.ico';
+      } 
     } else {
       document.documentElement.classList.remove("dark");
+      //set favicon
+      const favicon = document.getElementById("favicon") as HTMLAnchorElement | null;
+      if (favicon != null) {
+        favicon.href = './favicon_white.ico';
+      } 
     }
   }, [darkMode]);
 
